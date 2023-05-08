@@ -1,7 +1,6 @@
 # tcell-ontology
 Metaanalysis ontology
 
-
 Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [here](https://github.com/chanzuckerberg/single-cell-curation/blob/d39a93274ea10c54064bffec59eed0cce2c21413/schema/3.0.0/schema.md))
 
 
@@ -14,6 +13,7 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | study_id | Unique identifier of study | str | | 
 | donor_id | Unique identifier of donor | str | |
 | sample_id | Unique identifier of sample | str | |
+| cell_id | Unique identifier of cell | str |
 | is_primary_data | Whether it is primary data (true) or otherwise collected data (false). False for initial studies | bool | | 
 | organism_ontology_term_id | Organism ontology defined by NCBI taxonomy | str | Homo sapiens: NCBITaxon:9606, Mus musculus: NCBITaxon:100090 | 
 | organism | Organism corresponding to `organism_ontology_term_id` | str | Homo sapiens, Mus musculus
@@ -25,8 +25,6 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | --- | --- | --- | --- |
 | development_stage_ontology_term_id | Developmental stage | str | Human 1m-23m: HsapDv:0000083, Human 2y-12y: HsapDv:0000081, 13y-18y: HsapDv:0000086, >18y HsapDv:0000087 | 
 | development_stage | Development stage corresponding to `development_stage_ontology_term_id` | str | human infant stage, human child stage, human adolescent stage, human adult stage |
-| tissue_ontology_term_id | UBERON ID of tissue. If enriched/sorted MUST be an UBERON or CL term and SHOULD NOT use terms that do not capture the tissue of origin | str | UBERON:XXX |  
-| tissue | Tissue `corresponding to tissue_ontology_term_id` | str | |
 | disease_ontology_term_id | PATO identifier of disease | str | PATO:XXXX |  
 | disease | Disease name corresponding to `disease_ontology_term_id` | str | |
 | disease_severity_scale | Name of disease severity scale | str | e.g. Tumor scale, viral load | 
@@ -48,7 +46,10 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | assay_ontology_term_id | Assay ID, defined by the Experimental Factor Ontology (EFO) | str | 10x 3' v2 "EFO:0009899", 10x 3' v3	"EFO:0009922", 10x 5' v1 "EFO:0011025", "EFO:0011025" "EFO:0009900", Smart-seq	"EFO:0008930", Smart-seq2	"EFO:0008931"
 | assay | Assay corresponding to `assay_ontology_term_id` | str | 10x 3' v2, 10x 3' v3, 10x 5' v1, 10x 5' v2, Smart-seq, Smart-seq2
 | suspension_type | Single cell or single nucleus sequencing | Literal['cell', 'nucleus', 'na'] | 'cell', 'nucleus', 'na' | 
-
+| tissue_ontology_term_id | UBERON ID of tissue. If enriched/sorted MUST be an UBERON or CL term and SHOULD NOT use terms that do not capture the tissue of origin | str | UBERON:XXX |  
+| tissue | Tissue `corresponding to tissue_ontology_term_id` | str | |
+| tissue_location_level_1 | Precise tissue location | str | |
+| tissue_location_level_2 | Precise tissue location | str | |
 
 ## Cell-level information
 
