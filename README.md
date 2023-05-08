@@ -6,6 +6,9 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 
 
 # Metadata / .obs attribute 
+
+## General information 
+
 | Key | Description | Type | Examples |
 | --- | --- | --- | --- |
 | study_id | Unique identifier of study | str | | 
@@ -14,9 +17,12 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | is_primary_data | Whether it is primary data (true) or otherwise collected data (false). False for initial studies | bool | | 
 | organism_ontology_term_id | Organism ontology defined by NCBI taxonomy | str | Homo sapiens: NCBITaxon:9606, Mus musculus: NCBITaxon:100090 | 
 | organism | Organism corresponding to `organism_ontology_term_id` | str | Homo sapiens, Mus musculus
-| assay_ontology_term_id | Assay ID, defined by the Experimental Factor Ontology (EFO) | str | 10x 3' v2 "EFO:0009899", 10x 3' v3	"EFO:0009922", 10x 5' v1 "EFO:0011025", "EFO:0011025" "EFO:0009900", Smart-seq	"EFO:0008930", Smart-seq2	"EFO:0008931"
-| assay | Assay corresponding to `assay_ontology_term_id` | str | 10x 3' v2, 10x 3' v3, 10x 5' v1, 10x 5' v2, Smart-seq, Smart-seq2
-| suspension_type | Single cell or single nucleus sequencing | Literal['cell', 'nucleus', 'na'] | 'cell', 'nucleus', 'na' | 
+
+
+## Patient-level information
+
+| Key | Description | Type | Examples |
+| --- | --- | --- | --- |
 | development_stage_ontology_term_id | Developmental stage | str | Human 1m-23m: HsapDv:0000083, Human 2y-12y: HsapDv:0000081, 13y-18y: HsapDv:0000086, >18y HsapDv:0000087 | 
 | development_stage | Development stage corresponding to `development_stage_ontology_term_id` | str | human infant stage, human child stage, human adolescent stage, human adult stage |
 | tissue_ontology_term_id | UBERON ID of tissue. If enriched/sorted MUST be an UBERON or CL term and SHOULD NOT use terms that do not capture the tissue of origin | str | UBERON:XXX |  
@@ -33,6 +39,21 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | self_reported_ethnicity  | Ethnicity corresponding to `self_reported_ethnicity_ontology_term_id` | str | white, afro-american, african, asian, hispanic, native american, oceanian, multiethnic, unknown, na (non human) | 
 | lifestyle_smoking | Whether the patient smokes or not | str | never, previous, smoker, na |
 | lifestyle_bmi | Body mass index | float | float | float/na |
+
+
+## Sample-level information 
+
+| Key | Description | Type | Examples |
+| --- | --- | --- | --- |
+| assay_ontology_term_id | Assay ID, defined by the Experimental Factor Ontology (EFO) | str | 10x 3' v2 "EFO:0009899", 10x 3' v3	"EFO:0009922", 10x 5' v1 "EFO:0011025", "EFO:0011025" "EFO:0009900", Smart-seq	"EFO:0008930", Smart-seq2	"EFO:0008931"
+| assay | Assay corresponding to `assay_ontology_term_id` | str | 10x 3' v2, 10x 3' v3, 10x 5' v1, 10x 5' v2, Smart-seq, Smart-seq2
+| suspension_type | Single cell or single nucleus sequencing | Literal['cell', 'nucleus', 'na'] | 'cell', 'nucleus', 'na' | 
+
+
+## Cell-level information
+
+| Key | Description | Type | Examples |
+| --- | --- | --- | --- |
 | cell_type_ontology_term_id | cell type as defined by the CL ontology | str | CL:XX |
 | cell_type | cell type corresponding to `cell_type_ontology_term_id` | str | |
 | cell_type_original | annotation from original authors | str | T cell |
