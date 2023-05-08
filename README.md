@@ -48,9 +48,9 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | suspension_type | Single cell or single nucleus sequencing | Literal['cell', 'nucleus', 'na'] | 'cell', 'nucleus', 'na' | 
 | tissue_ontology_term_id | UBERON ID of tissue. If enriched/sorted MUST be an UBERON or CL term and SHOULD NOT use terms that do not capture the tissue of origin | str | UBERON:XXX |  
 | tissue | Tissue `corresponding to tissue_ontology_term_id` | str | |
-| tissue_location_level_1 | Precise tissue location | str | |
-| tissue_location_level_2 | Precise tissue location | str | |
-| sample_disease_status | Disease status of sample, relevant if multiple samples were taken from the same patient | str | healthy (if patient is healthy OR if non-affected tissue is taken), disease (if affected tissue is taken), systemic (e.g. if blood of affected subject is taken or disease affects the whole system)
+| tissue_location_level_0 | Coarse tissue location | str | large intestine, small intestine, lung |
+| tissue_layer | Precise tissue location | str | e.g. lamina propria/epithelium |
+| sample_disease_status | Disease status of sample, relevant if multiple samples were taken from the same patient | str | healthy (if patient is healthy), non_affected if non-affected tissue is taken from affected subject, affected (if affected tissue is taken), systemic (e.g. if blood of affected subject is taken or disease affects the whole system)
 
 ## Cell-level information
 
