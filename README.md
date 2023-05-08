@@ -35,7 +35,7 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | sex | Sex corresponding to sex_ontology_term_id | str | female, male, unknown
 | self_reported_ethnicity_ontology_term_id | Self reported ethinicity ID as defined by HANCESTRO | str | white/european/caucasian: HANCESTRO:0005, Middle Eastern/North African: HANCESTRO:0015, afro-american/carribean: HANCESTRO:0016, asian (east asia, south asia, south east asia) HANCESTRO:0008, hispanic/south-american: HANCESTRO:0014, Native american: HANCESTRO:0013, Oceanian: HANCESTRO:0017, african: HANCESTRO:0010, multiethnic, unknown, na (non human) |
 | self_reported_ethnicity  | Ethnicity corresponding to `self_reported_ethnicity_ontology_term_id` | str | white, afro-american, african, asian, hispanic, native american, oceanian, multiethnic, unknown, na (non human) | 
-| lifestyle_smoking | Whether the patient smokes or not | str | never, previous, smoker, na |
+| lifestyle_smoking_status | Whether the patient smokes or not | str | never, previous, smoker, na |
 | lifestyle_bmi | Body mass index | float | float | float/na |
 
 
@@ -64,3 +64,18 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | cell_type_level_2 | Finer cell type annotation (same for all studies) | str (default: empty) | Th2 CD4+ cell | 
 | cell_type_level_3 | Finer cell type annotation (same for all studies) | str (default: empty) |  | 
 | cell_type_level_4 | Finer cell type annotation (same for all studies), same annotation level as human lung atlas | str (default: empty) |  | 
+
+## .var
+index: ENSEMBL ID
+feature_is_filtered: False 
+feature_biotype: "gene"
+feature_name: ENSEMBL gene name 
+feature_name_original: Original gene name as specified by the authors
+feature_reference: Taxonomy (Human: NCBITaxon:9606, Mus Musculus: NCBITaxon:10090)
+
+## .uns 
+schema_version: 3.0.0
+title: string 
+batch_condition: List[str] of covariates that might induce batch effects
+default_embedding: UMAP
+X_approximate_distribution: Do not set
