@@ -65,17 +65,25 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | cell_type_level_3 | Finer cell type annotation (same for all studies) | str (default: empty) |  | 
 | cell_type_level_4 | Finer cell type annotation (same for all studies), same annotation level as human lung atlas | str (default: empty) |  | 
 
+
 ## .var
-index: ENSEMBL ID
-feature_is_filtered: False 
-feature_biotype: "gene"
-feature_name: ENSEMBL gene name 
-feature_name_original: Original gene name as specified by the authors
-feature_reference: Taxonomy (Human: NCBITaxon:9606, Mus Musculus: NCBITaxon:10090)
+
+Key | Description | Type | Example |
+| --- | --- | --- | --- |
+index | ENSEMBL ID | int | |
+feature_is_filtered | False | bool | 
+feature_biotype | "gene" | Literal['gene'] | |
+feature_name | ENSEMBL gene name | str ||
+feature_name_original | Original gene name as specified by the authors | str ||
+feature_reference | Taxonomy (Human: NCBITaxon:9606, Mus Musculus: NCBITaxon:10090) | str | |
+
 
 ## .uns 
-schema_version: 3.0.0
-title: string 
-batch_condition: List[str] of covariates that might induce batch effects
-default_embedding: UMAP
-X_approximate_distribution: Do not set
+
+Key | Description | type | Example |
+| --- | --- | --- | --- |
+schema_version | 3.0.0 | Literal['3.0.0'] | |
+title | string | | |
+batch_condition | List of covariates that might induce batch effects | List[str] | |
+default_embedding | UMAP | str | |
+X_approximate_distribution | Do not set (will be set automatically | |
