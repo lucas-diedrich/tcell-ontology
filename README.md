@@ -50,6 +50,7 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | tissue | Tissue `corresponding to tissue_ontology_term_id` | str | |
 | tissue_location_level_1 | Precise tissue location | str | |
 | tissue_location_level_2 | Precise tissue location | str | |
+| sample_disease_status | Disease status of sample, relevant if multiple samples were taken from the same patient | str | healthy (if patient is healthy OR if non-affected tissue is taken), disease (if affected tissue is taken), systemic (e.g. if blood of affected subject is taken or disease affects the whole system)
 
 ## Cell-level information
 
