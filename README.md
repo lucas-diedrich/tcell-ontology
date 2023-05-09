@@ -59,14 +59,22 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | cell_type_ontology_term_id | cell type as defined by the CL ontology | str | CL:XX |
 | cell_type | cell type corresponding to `cell_type_ontology_term_id` | str | |
 | cell_type_original | annotation from original authors | str | T cell |
-| cell_type_level_0 | Coarse cell type annotation (same for all studies) | str (default: empty)| T cell | 
-| cell_type_level_1 | Finer cell type annotation (same for all studies) | str (default: empty) | CD4+ T cell | 
-| cell_type_level_2 | Finer cell type annotation (same for all studies) | str (default: empty) | Th2 CD4+ cell | 
-| cell_type_level_3 | Finer cell type annotation (same for all studies) | str (default: empty) |  | 
-| cell_type_level_4 | Finer cell type annotation (same for all studies), same annotation level as human lung atlas | str (default: empty) |  | 
+| cell_type_original_level_0 | Coarse cell type annotation (same for all studies) | str (default: empty)| Immune cell | 
+| cell_type_original_level_1 | Finer cell type annotation (same for all studies) | str (default: empty) | T cell lineage | 
+| cell_type_original_level_2 | Finer cell type annotation (same for all studies) | str (default: empty) | T cell | 
+| cell_type_original_level_3 | Finer cell type annotation (same for all studies) | str (default: empty) | CD4-positive alpha-beta T cell | 
+| cell_type_original_level_4 | Finer cell type annotation (same for all studies), same annotation level as human lung atlas | str (default: empty) |  T helper 1 cell | 
+| cell_type_level_0 | Coarse cell type annotation (same for all studies) | str (default: empty)| Immune cell | 
+| cell_type_level_1 | Finer cell type annotation (same for all studies) | str (default: empty) | T cell lineage | 
+| cell_type_level_2 | Finer cell type annotation (same for all studies) | str (default: empty) | T cell | 
+| cell_type_level_3 | Finer cell type annotation (same for all studies) | str (default: empty) | CD4-positive alpha-beta T cell | 
+| cell_type_level_4 | Finer cell type annotation (same for all studies), same annotation level as human lung atlas | str (default: empty) | T helper 1 cell | 
 
 
-## .var
+Available cell types are stored in celltype-mapping.tsv. Mapping format is similar to human lung cell atlas by the Theis Lab ([Sikkema et al, 2022](https://doi.org/10.1101/2022.03.10.483747))
+
+
+# .var
 
 Key | Description | Type | Example |
 | --- | --- | --- | --- |
@@ -76,9 +84,10 @@ feature_biotype | "gene" | Literal['gene'] | |
 feature_name | ENSEMBL gene name | str ||
 feature_name_original | Original gene name as specified by the authors | str ||
 feature_reference | Taxonomy (Human: NCBITaxon:9606, Mus Musculus: NCBITaxon:10090) | str | |
+is_mitochondrial | Whether gene is mitochondrial or not | bool | True/False | 
 
 
-## .uns 
+# .uns 
 
 Key | Description | type | Example |
 | --- | --- | --- | --- |
