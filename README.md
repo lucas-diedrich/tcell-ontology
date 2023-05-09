@@ -84,7 +84,7 @@ feature_biotype | "gene" | Literal['gene'] | |
 feature_name | ENSEMBL gene name | str ||
 feature_name_original | Original gene name as specified by the authors | str ||
 feature_reference | Taxonomy (Human: NCBITaxon:9606, Mus Musculus: NCBITaxon:10090) | str | |
-is_mitochondrial | Whether gene is mitochondrial or not | bool | True/False | 
+feature_is_mitochondrial | Whether gene is mitochondrial or not | bool | True/False | 
 
 
 # .uns 
