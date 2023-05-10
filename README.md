@@ -23,7 +23,7 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 
 | Key | Description | Type | Examples |
 | --- | --- | --- | --- |
-| development_stage_ontology_term_id | Developmental stage | str | Human 1m-23m: HsapDv:0000083, Human 2y-12y: HsapDv:0000081, 13y-18y: HsapDv:0000086, >18y HsapDv:0000087 | 
+| development_stage_ontology_term_id | Developmental stage | str | Human <1m: Human infant stage HsapDv:0000082, Human 1m-23m: HsapDv:0000083, Human 2y-12y: HsapDv:0000081, 13y-18y: HsapDv:0000086, >18y HsapDv:0000087 | 
 | development_stage | Development stage corresponding to `development_stage_ontology_term_id` | str | human infant stage, human child stage, human adolescent stage, human adult stage |
 | disease_ontology_term_id | PATO identifier of disease | str | PATO:XXXX |  
 | disease | Disease name corresponding to `disease_ontology_term_id` | str | |
