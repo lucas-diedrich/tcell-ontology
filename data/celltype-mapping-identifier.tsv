@@ -66,3 +66,21 @@ CD8 naive T cell 	4	CL:0000900
 CD8 memory T cell	4	CL:0000909
 CD8 cytokine secreting T cell	4	CL:0000908
 CD8 regulatory T cell	4	CL:0000795
+memory B cell	4	CL:0000787
+Basal cell	3	CL:0000646
+Epithelial fate stem cell	2	CL:0000036
+Ciliated cell	1	CL:0000064
+Hillock cell	1	CL:4030024
+mucosal invariant T cell	4	CL:0000940
+Brush cell	1	CL:0002204
+Ionocyte	1	CL:0005006
+Tuft cell	1	CL:0002204
+Neuroendrocrine cell	1	CL:0000165
+Melanocyte	0	CL:0000148
+Squamous cell	1	CL:0000076
+Follicular B cell	4	
+Type I Pneumocyte		CL:0002062
+Langerhans cell	2	CL:0000453
+Microglial cell		
+naive T helper cell		CL:0000895
+Oligodendrocyte		CL:0000128

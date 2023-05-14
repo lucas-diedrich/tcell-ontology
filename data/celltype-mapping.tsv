@@ -1,67 +1,101 @@
-0	1	2	3	4	UC_Smilie2020.Imm
-Epithelial cell					
-Epithelial cell	Gut absorptive cell				
-Epithelial cell	Gut absorptive cell	Enterocyte			Enterocytes,Immature Enterocytes 1,Immature Enterocytes 2,Enterocyte Progenitors,Best4+ Enterocytes
-Epithelial cell	Glandular epithelial cell				
-Epithelial cell	Glandular epithelial cell	Goblet cell			Immature Goblet,Goblet
-Epithelial cell	Glandular epithelial cell	Enteroendocrine cell			Enteroendocrine
-Epithelial cell	Glandular epithelial cell	M cell			M cells
-Epithelial cell	Endo-epithelial cell				
-Epithelial cell	Endo-epithelial cell	Intestinal tuft cell			Tuft
-Epithelial cell	Endothelial cell				Endothelial,Microvascular,Post-capillary Venules
-Stromal cell					
-Stromal cell	Fibroblast lineage				
-Stromal cell	Fibroblast lineage	Fibroblast cell			Inflammatory Fibroblasts,WNT5B+ 1,WNT5B+ 2,WNT2B+ Fos-hi,WNT2B+ Fos-lo 1,WNT2B+ Fos-lo 2,RSPO3+
-Stromal cell	Fibroblast lineage	Myofibroblast cell			Myofibroblasts
-Stromal cell	Smooth muscle cell				
-Stromal cell	Mesothelilal cell				
-Stromal cell	Chondrocyte				
-Immune cell					
-Immune cell	Lymphoid cell				
-Immune cell	Lymphoid cell	B cell lineage			
-Immune cell	Lymphoid cell	B cell lineage	B cell		Cycling B,GC
-Immune cell	Lymphoid cell	B cell lineage	Plasma cell		Plasma
-Immune cell	Lymphoid cell	T cell lineage			Cycling T
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell		CD4+ PD1+,CD4+ Activated Fos-hi,CD4+ Activated Fos-lo,MT-hi
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	T helper 1 cell	
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	T helper 2 cell	
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	T helper 17 cell	
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	T helper 22 cell	
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	CD4-positive, CD25-positive, alpha-beta regulatory T cell	Tregs
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	T helper 9 cell	
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	T follicular regulatory cell	Follicular
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	Tr1 cell	
-Immune cell	Lymphoid cell	T cell lineage	CD4-positive, alpha-beta cytotoxic T cell	CD4 memory T cell	CD4+ Memory
-Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell		CD8+ IELs,CD8+ LP,CD8+ IL17+
-Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 naive T cell 	
-Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 memory T cell	
-Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 cytokine secreting T cell	
-Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 regulatory T cell	
-Immune cell	Lymphoid cell	T cell lineage	gamma-delta T cell		
-Immune cell	Lymphoid cell	T cell lineage	NK T cell		
-Immune cell	Lymphoid cell	Innate lymphoid cell			
-Immune cell	Lymphoid cell	Innate lymphoid cell	Natural Killer cell		NKs
-Immune cell	Lymphoid cell	Innate lymphoid cell	ILC1		ILCs
-Immune cell	Myeloid cell	Innate lymphoid cell			
-Immune cell	Myeloid cell	Innate lymphoid cell	Dendritic cell		DC1,DC2
-Immune cell	Myeloid cell	Innate lymphoid cell	Macrophage		Macrophages
-Immune cell	Myeloid cell	Innate lymphoid cell	Monocyte		Inflammatory Monocytes,Cycling Monocytes
-Immune cell	Myeloid cell	Innate lymphoid cell	Mast cell		CD69- Mast,CD69+ Mast
-Immune cell	Granulocyte	Innate lymphoid cell			
-Immune cell	Granulocyte	Innate lymphoid cell	Basophil		
-Immune cell	Granulocyte	Innate lymphoid cell	Neutrophil		
-Immune cell	Granulocyte	Innate lymphoid cell	Eosinophil		
-Hematopoetic cell					
-Hematopoetic cell	Megakaryocytic and erythroid				
-Hematopoetic cell	Megakaryocytic and erythroid	Megakaryocyte			
-Hematopoetic cell	Megakaryocytic and erythroid	Erythrocyte			
-Hematopoetic cell	Megakaryocytic and erythroid	Erythroblast			
-Neural cell					
-Neural cell	Neuron				
-Neural cell	Neuron associated cell				
-Neural cell	Neuron associated cell	Glial cell			Glia
-Pericyte 					Pericytes
-Undifferentiated					
-Undifferentiated	Stem cell				Stem
-Undifferentiated	Transit amplifying cell				TA 1,TA 2,Secretory TA,Cycling TA
-Unknown					nan
+0	1	2	3	4	UC_Smilie2020.Imm	covid19_yoshida2022_airways	nslc_kim2020	crc_zhang2020
+Epithelial cell							Epithelial cells+Epithelial cells+Undetermined,Epithelial cells+Epithelial cells+tS1,Epithelial cells+Epithelial cells+tS2,Epithelial cells+Epithelial cells+tS3,Epithelial cells+Epithelial cells+nan	
+Epithelial cell	Gut absorptive cell							
+Epithelial cell	Gut absorptive cell	Enterocyte			Enterocytes,Immature Enterocytes 1,Immature Enterocytes 2,Enterocyte Progenitors,Best4+ Enterocytes			hE02_Enterocyte-GUCA2B
+Epithelial cell	Glandular epithelial cell							
+Epithelial cell	Glandular epithelial cell	Goblet cell						
+Epithelial cell	Glandular epithelial cell	Goblet cell	Intestine Goblet cell		Immature Goblet,Goblet			hE03_Goblet-SPINK4,hE04_Goblet-REG4,
+Epithelial cell	Glandular epithelial cell	Goblet cell	Respiratory Goblet cell			Goblet 2 BPIFA2+,Goblet 2 PLAU+,Goblet 1,Goblet 2 inflammatory		
+Epithelial cell	Glandular epithelial cell	Secretory cell				Secretory,Secretory GALNT4+		
+Epithelial cell	Glandular epithelial cell	Secretory cell	Club cell			Club	Epithelial cells+Epithelial cells+Club	
+Epithelial cell	Glandular epithelial cell	Enteroendocrine cell			Enteroendocrine			
+Epithelial cell	Glandular epithelial cell	M cell			M cells			
+Epithelial cell	Endo-epithelial cell							
+Epithelial cell	Endo-epithelial cell	Intestinal tuft cell			Tuft			
+Epithelial cell	Endothelial cell				Endothelial,Microvascular,Post-capillary Venules		Fibroblasts+Endothelial cells+Tumor ECs,Fibroblasts+Endothelial cells+Stalk-like ECs,Fibroblasts+Endothelial cells+Lymphatic ECs,Fibroblasts+Endothelial cells+EPCs,Endothelial cells+nan+nan,Endothelial cells+Endothelial cells+Tumor ECs,Endothelial cells+Endothelial cells+Tip-like ECs,Endothelial cells+Endothelial cells+Stalk-like ECS,Endothelial cells+Endothelial cells+EPCs,Endothelial cells+Endothelial cells+Lymphatic Ecs	hE01_Endothelium-ACKR1
+Epithelial cell	Ciliated cell					Ciliated 1,Ciliated 2,Deuterosomal,Duct	Epithelial cells+Epithelial cells+Ciliated	
+Epithelial cell	Hillock cell					Hillock,Hillock precursor,Cycling hillock		
+Epithelial cell	Brush cell					Brush		
+Epithelial cell	Ionocyte					Ionocyte		
+Epithelial cell	Tuft cell					Tuft 		
+Epithelial cell	Neuroendrocrine cell					Neuroendrocrine		
+Epithelial cell	Squamous cell					Squamous		
+Epithelial cell	Pneumocyte							
+Epithelial cell	Pneumocyte	Type I Pneumocyte					Epithelial cells+Epithelial cells+AT1	
+Epithelial cell	Pneumocyte	Type II Pneumocyte					Epithelial cells+Epithelial cells+AT2	
+Stromal cell								
+Stromal cell	Fibroblast lineage						Fibroblasts+nan+nan,Fibroblasts+Fibroblasts+Smooth muscle cells	
+Stromal cell	Fibroblast lineage	Fibroblast cell			Inflammatory Fibroblasts,WNT5B+ 1,WNT5B+ 2,WNT2B+ Fos-hi,WNT2B+ Fos-lo 1,WNT2B+ Fos-lo 2,RSPO3+		Fibroblasts+Fibroblasts+Undetermined,Fibroblasts+Fibroblasts+COL13A1+ matrix FBs,Fibroblasts+Fibroblasts+FB-like cells,Fibroblasts+Fibroblasts+Mesothelial cells	hF02_CAF-FAP
+Stromal cell	Fibroblast lineage	Myofibroblast cell			Myofibroblasts		Fibroblasts+Fibroblasts+Myofibroblasts	hF01_Myofib-ACTA2
+Stromal cell	Smooth muscle cell							
+Stromal cell	Mesothelilal cell							
+Stromal cell	Chondrocyte							
+Immune cell								
+Immune cell	Lymphoid cell						NK cells+T/NK cells+Undetermined,T lymphocytes+T/NK cells+Undetermined	
+Immune cell	Lymphoid cell	B cell lineage						
+Immune cell	Lymphoid cell	B cell lineage	B cell		Cycling B,GC		B lymphocytes+B lymphocytes+Undetermined,B lymphocytes+B lymphocytes+MALT B cells,B lymphocytes+B lymphocytes+GC B cells in the DZ,B lymphocytes+B lymphocytes+GC B cells in the LZ,B lymphocytes+B lymphocytes+GrB-secreting B cells	hB02_GALTB-IgA
+Immune cell	Lymphoid cell	B cell lineage	B cell	naive B cell		B naive		
+Immune cell	Lymphoid cell	B cell lineage	B cell	memory B cell		B mem exhausted,B mem activated,B mem,B cycling		
+Immune cell	Lymphoid cell	B cell lineage	B cell	follicular B cell			B lymphocytes+B lymphocytes+Follicular B cells	hB03_FollicularB-IgD,hB04_FollicularB-MS4A1,hB01_PlasmaB-IgG
+Immune cell	Lymphoid cell	B cell lineage	B cell	germinal center B cell				hB05_GCBCell-LRMP,
+Immune cell	Lymphoid cell	B cell lineage	Plasma cell		Plasma	Plasma IgL,Plasma IgK	B lymphocytes+B lymphocytes+Plasma cells	
+Immune cell	Lymphoid cell	T cell lineage			Cycling T	T cycling	T lymphocytes+T/NK cells+CD8+/CD4+ Mixed Th,T lymphocytes+nan+nan	
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell		CD4+ PD1+,CD4+ Activated Fos-hi,CD4+ Activated Fos-lo,MT-hi	T CD4 CCR4+	T lymphocytes+T/NK cells+CD4+ Th,NK cells+T/NK cells+CD4+ Th	hT04_CD4-TCF7,hT05_CD4-CXCR6,hT07_CD4-GZMK,hT06_CD4-CXCR5,hT11_CD4-CTLA4,hT02_CD4-ANXA1,hT03_CD4-GNLY,hT09_CD4-CXCL13,hT08_CD4-IL23R,hT01_CD4-CCR7,hT10_CD4-FOXP3
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	naive T helper cell			NK cells+T/NK cells+Naive CD4+ T,T lymphocytes+T/NK cells+Naive CD4+ T	
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	T helper 1 cell				
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	T helper 2 cell				
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	T helper 17 cell				
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	T helper 22 cell				
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	CD4-positive, CD25-positive, alpha-beta regulatory T cell	Tregs		T lymphocytes+T/NK cells+Treg	
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	T helper 9 cell				
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	T follicular regulatory cell	Follicular	T fh		
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	Tr1 cell				
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	CD4 memory T cell	CD4+ Memory	T CD4 mem		
+Immune cell	Lymphoid cell	T cell lineage	CD4-positive helper T cell	exhausted helper T cell			T lymphocytes+T/NK cells+Exhausted Tfh	
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell		CD8+ IELs,CD8+ LP,CD8+ IL17+		NK cells+T/NK cells+CD8 low T,NK cells+T/NK cells+Cytotoxic CD8+ T,T lymphocytes+T/NK cells+CD8 low T,T lymphocytes+T/NK cells+CD8 low T,T lymphocytes+T/NK cells+Cytotoxic CD8+ T	hT16_CD8-CD6,hT18_CD8-LAYN,hT17_CD8-CD160,hT13_CD8-GPR183,hT15_CD8-GZMK,hT12_CD8-LEF1,hT14_CD8-CX3CR1
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 naive T cell 		T naive	NK cells+T/NK cells+Naive CD8+ T,T lymphocytes+T/NK cells+Naive CD8+ T	
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 memory T cell		T CD8 mem 1,T CD8 mem 2,T CD8 mem 3		
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 cytokine secreting T cell				
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	CD8 regulatory T cell		T reg	NK cells+T/NK cells+Treg	
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	mucosal invariant T cell		MAIT		
+Immune cell	Lymphoid cell	T cell lineage	CD8-positive, alpha-beta cytotoxic T cell	exhausted cytotoxic T cell		T CD8 exhausted	NK cells+T/NK cells+Exhausted CD8+ T,T lymphocytes+T/NK cells+Exhausted CD8+ T	
+Immune cell	Lymphoid cell	T cell lineage	gamma-delta T cell			T gd		
+Immune cell	Lymphoid cell	T cell lineage	NK T cell			NKT		
+Immune cell	Lymphoid cell	Innate lymphoid cell				ILC		hI04_ILC3-SLC4A10
+Immune cell	Lymphoid cell	Innate lymphoid cell	Natural Killer cell		NKs	NK cd56lo,NK cd56hi	NK cells+nan+nan,NK cells+T/NK cells+NK,T lymphocytes+T/NK cells+NK	
+Immune cell	Lymphoid cell	Innate lymphoid cell	ILC1		ILCs			
+Immune cell	Myeloid cell						Myeloid cells+Myeloid cells+Undetermined	
+Immune cell	Myeloid cell	Dendritic cell			DC1,DC2	fDC,cDC activated,pDC	Myeloid cells+Myeloid cells+Activated DCs,Myeloid cells+Myeloid cells+CD141+ DCs,Myeloid cells+Myeloid cells+CD163+CD14+ DCs,Myeloid cells+Myeloid cells+CD1c+ DCs,Myeloid cells+Myeloid cells+pDCs	hM03_cDC2-CD1C,hM04_cDC1-BATF3,hM02_pDC-LILRA4
+Immune cell	Myeloid cell	Langerhans cell					Myeloid cells+Myeloid cells+CD207+CD1a+ LCs	
+Immune cell	Myeloid cell	Macrophage			Macrophages	Mac,Mac activated	Myeloid cells+Myeloid cells+Pleural Mac	hM08_Macro-NLRP3,hM12_TAM-C1QC,hM13_TAM-SPP1,hM09_Macro-PLTP,hM10_Macro-IL1B,
+Immune cell	Myeloid cell	Macrophage	Alveolar Macrophage				Myeloid cells+Myeloid cells+Alveolar Mac	
+Immune cell	Myeloid cell	Macrophage	Microglia				Myeloid cells+Myeloid cells+Microglia/Mac	
+Immune cell	Myeloid cell	Monocyte			Inflammatory Monocytes,Cycling Monocytes	Mono CXCL10+,Mono GPBAR1+,Mono IL6+	Myeloid cells+Myeloid cells+Monocytes	hM06_Mono-CD16,hM05_Mono-CD14,hM11_Monolike-FCN1,hM07_Mono-CD14CD16
+Immune cell	Myeloid cell	Monocyte-Macrophage					Myeloid cells+Myeloid cells+mo-Mac	
+Immune cell	Myeloid cell	Mast cell			CD69- Mast,CD69+ Mast	Mast	MAST cells+MAST cells+MAST	hM01_Mast-TPSAB1
+Immune cell	Granulocyte							
+Immune cell	Granulocyte	Basophil						
+Immune cell	Granulocyte	Neutrophil				Neut		
+Immune cell	Granulocyte	Eosinophil						
+Hematopoetic cell								
+Hematopoetic cell	Megakaryocytic and erythroid							
+Hematopoetic cell	Megakaryocytic and erythroid	Megakaryocyte						
+Hematopoetic cell	Megakaryocytic and erythroid	Erythrocyte						
+Hematopoetic cell	Megakaryocytic and erythroid	Erythroblast						
+Neural cell								
+Neural cell	Neuron							
+Neural cell	Neuron associated cell							
+Neural cell	Neuron associated cell	Glial cell			Glia			
+Neural cell	Neuron associated cell	Glial cell	Oligodendrocyte				Oligodendrocytes+nan+nan	
+Pericyte 					Pericytes	Fibroblasts+Fibroblasts+Pericytes		
+Melanocyte						Melanocyte		
+Undifferentiated								hE05_Stemlike-LGR5
+Undifferentiated	Stem cell				Stem			
+Undifferentiated	Stem cell	Epithelial fate stem cell						
+Undifferentiated	Stem cell	Epithelial fate stem cell	Basal cell		Basal 2,Cycling basal,Basal 1,Basal 1 KHDRBS2+			
+Undifferentiated	Transit amplifying cell				TA 1,TA 2,Secretory TA,Cycling TA			
+Tumor								
+Tumor	Epithelial tumor cell							
+Tumor	Epithelial tumor cell	Lung 					Epithelial cells+Epithelial cells+Malignant cells	
+Tumor	Epithelial tumor cell	Lung 	Lung Adenocarcinoma					
+Unknown					nan	LC,Transit epi 1,Transit epi 2	Undetermined+nan+nan	hE06_UnIdent,hC03_P0411,hC01_P0413,hC04_P1212,hC02_P0825
