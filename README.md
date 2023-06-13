@@ -6,6 +6,9 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 
 # Metadata / .obs attribute 
 
+All values should be in lower capitalization. Blank spaces should be replaced with `_` underscores. 
+
+
 ## General information 
 
 | Key | Description | Type | Examples |
