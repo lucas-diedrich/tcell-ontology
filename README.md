@@ -27,6 +27,7 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 | development_stage | Development stage corresponding to `development_stage_ontology_term_id` | str | human neonate stage, human infant stage, human child stage, human adolescent stage, human adult stage |
 | disease_ontology_term_id | MONDO identifier of disease | str | MONDO:XXXX |  
 | disease | Disease name corresponding to `disease_ontology_term_id` | str | |
+| disease_type | Type/class of disease {'cancer', 'autoimmunity', 'infection', NaN} | str | | 
 | disease_time_since_onset | Relevant for infections. Time since infection/onset in days | int | |
 | disease_severity_scale | Name of disease severity scale | str | e.g. Tumor scale, viral load | 
 | disease_severity_scale_type | type of disease severity | str | Type of scale nominal/ordinal/standardized (standardized ordinal scale such as tumor stage)/metric | 
