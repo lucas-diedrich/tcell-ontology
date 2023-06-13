@@ -36,6 +36,9 @@ All values should be in lower capitalization. Blank spaces should be replaced wi
 | disease_severity_scale_type | type of disease severity | str | Type of scale nominal/ordinal/standardized (standardized ordinal scale such as tumor stage)/metric | 
 | disease_severity_score | Score of disease severity scaled from 0 (minimum in dataset) to 1 (maximum in dataset) | float | |
 | disease_severity_score_original | Score of disease severity on original scale | (varies) | healthy/mild/severe, 0-4, etc. | 
+| treatment_ontology_term_id | MAXO Treatment ID | str | |
+| treatment | Corresponding name to MAXO treatment ID | str ||
+| treatment_duration | Treatment duration in days | int | |
 | sex_ontology_term_id | PATO ID of sex. | str | female: PATO:0000383, male: PATO:0000384, "unknown" | 
 | sex | Sex corresponding to sex_ontology_term_id | str | female, male, unknown
 | self_reported_ethnicity_ontology_term_id | Self reported ethinicity ID as defined by HANCESTRO | str | white/european/caucasian: HANCESTRO:0005, Middle Eastern/North African: HANCESTRO:0015, afro-american/carribean: HANCESTRO:0016, asian (east asia, south asia, south east asia) HANCESTRO:0008, hispanic/south-american: HANCESTRO:0014, Native american: HANCESTRO:0013, Oceanian: HANCESTRO:0017, african: HANCESTRO:0010, multiethnic, unknown, na (non human) |
