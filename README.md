@@ -6,7 +6,7 @@ Metadata annotation is the same as single-cell-curation schema v. 3.0.0 (see [he
 
 # Metadata / .obs attribute 
 
-All values should be in lower capitalization. Blank spaces should be replaced with `_` underscores. 
+All values should be in lower capitalization. Blank spaces should be replaced with `_` underscores, except for original author annotations (`cell_type_original`, `tissue_original` etc. to allow backward compatibility. 
 
 
 ## General information 
