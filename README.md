@@ -39,6 +39,11 @@ All values should be in lower capitalization. Blank spaces should be replaced wi
 | treatment_ontology_term_id | MAXO Treatment ID | str | |
 | treatment | Corresponding name to MAXO treatment ID | str ||
 | treatment_duration | Treatment duration in days | int | |
+| outcome_scale | name of outcome scale | str | |
+| outcome_scale_type | type of outcome scale | str | see disease_severity_scale_type |
+| outcome_score | numerical representation of outcome in the range of 0 (minimum) to 1 (maximum response) | float | |
+| outcome_score_original | Score of outcome on original scale | (varies) | healthy/mild/severe, 0-4, etc. | 
+
 | sex_ontology_term_id | PATO ID of sex. | str | female: PATO:0000383, male: PATO:0000384, "unknown" | 
 | sex | Sex corresponding to sex_ontology_term_id | str | female, male, unknown
 | self_reported_ethnicity_ontology_term_id | Self reported ethinicity ID as defined by HANCESTRO | str | white/european/caucasian: HANCESTRO:0005, Middle Eastern/North African: HANCESTRO:0015, afro-american/carribean: HANCESTRO:0016, asian (east asia, south asia, south east asia) HANCESTRO:0008, hispanic/south-american: HANCESTRO:0014, Native american: HANCESTRO:0013, Oceanian: HANCESTRO:0017, african: HANCESTRO:0010, multiethnic, unknown, na (non human) |
