@@ -41,7 +41,7 @@ All values should be in lower capitalization. Blank spaces should be replaced wi
 | treatment_duration | Treatment duration in days | int | |
 | outcome_scale | name of outcome scale | str | |
 | outcome_scale_type | type of outcome scale | str | see disease_severity_scale_type |
-| outcome_score | numerical representation of outcome in the range of 0 (minimum) to 1 (maximum response) | float | |
+| outcome_score | numerical representation of outcome in the range of 0 (minimum/worst outcome) to 1 (maximum response/best outcome) | float | |
 | outcome_score_original | Score of outcome on original scale | (varies) | healthy/mild/severe, 0-4, etc. | 
 | sex_ontology_term_id | PATO ID of sex. | str | female: PATO:0000383, male: PATO:0000384, "unknown" | 
 | sex | Sex corresponding to sex_ontology_term_id | str | female, male, unknown
