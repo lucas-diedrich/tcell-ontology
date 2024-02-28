@@ -5,7 +5,7 @@ Stromal cell	0	CL:0000499
 Immune cell	0	CL:0000988
 Hematopoetic cell	0	CL:0000988
 Neural cell	0	CL:0002319
-Pericyte 	0	CL:0000669
+Pericyte	0	CL:0000669
 Undifferentiated	0	nan
 Unknown	0	nan
 Gut absorptive cell	1	CL:0000677
@@ -62,7 +62,7 @@ T follicular regulatory cell	4	CL:0009113
 Tr1 cell	4	CL:0000901
 CD4 naive T cell	4	CL:0000898
 CD4 memory T cell	4	CL:0000897
-CD8 naive T cell 	4	CL:0000900
+CD8 naive T cell	4	CL:0000900
 CD8 memory T cell	4	CL:0000909
 CD8 cytokine secreting T cell	4	CL:0000908
 CD8 regulatory T cell	4	CL:0000795
@@ -84,3 +84,9 @@ Langerhans cell	2	CL:0000453
 Microglial cell		
 naive T helper cell		CL:0000895
 Oligodendrocyte		CL:0000128
+ILC3	3	CL:0001071
+Eccrine cell		CL:0000434
+Ectoepithelial cell	1	CL:0002077
+Epidermal cell	2	CL:0000362
+Keratinocyte	3	CL:0000312
+Hematopoietic stem cell	1	CL:0000037
